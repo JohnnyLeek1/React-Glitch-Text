@@ -45,7 +45,7 @@ const rightShift = keyframes`
     84%, 90% {
         transform: translate(8px, 0) skew(20deg);
     }
-`
+`;
 
 const GlitchTextWrapper = styled.span<GlitchTextProps>`
     z-index: 2;
@@ -63,16 +63,15 @@ const GlitchTextWrapper = styled.span<GlitchTextProps>`
 
     &:before {
         clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
-        color: ${props => props.$colorA || '#f0f'};
+        color: ${(props) => props.$colorA || '#f0f'};
         animation: ${rightShift} 200ms steps(2) infinite;
     }
 
     &:after {
         clip-path: polygon(0 100%, 100% 100%, 100% 50%, 0 50%);
-        color: ${props => props.$colorB || '#0ff'};
+        color: ${(props) => props.$colorB || '#0ff'};
         animation: ${leftShift} 200ms steps(2) infinite;
     }
-
 `;
 
 const GlitchText: React.FC<GlitchTextProps> = (props) => {

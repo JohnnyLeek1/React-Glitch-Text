@@ -19,7 +19,7 @@
   <p align="center">
     Create a glitch text effect in React
     <br />
-    <a href="https://codesandbox.io/p/sandbox/purple-worker-hur815?file=%2Fsrc%2FApp.tsx">View Demo</a>
+    <a href="https://codesandbox.io/p/sandbox/brave-sanderson-d34ds8?file=%2Fsrc%2FApp.tsx%3A1%2C20">View Demo</a>
     ·
     <a href="https://github.com/JohnnyLeek1/React-Glitch-Text/issues">Report Bug</a>
     ·
@@ -199,7 +199,7 @@ Project Link: [https://github.com/JohnnyLeek1/React-Glitch-Text](https://github.
 [linkedin-url]: https://linkedin.com/in/johnny-leek
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Sandbox-Link]: https://codesandbox.io/p/sandbox/purple-worker-hur815?file=%2Fsrc%2FApp.tsx
+[Sandbox-Link]: https://codesandbox.io/p/sandbox/brave-sanderson-d34ds8?file=%2Fsrc%2FApp.tsx%3A1%2C20
 [Styled-Components]: https://img.shields.io/badge/styled-components-black?style=for-the-badge&logo=three.js&logoColor=white
 [Styled-Components-url]: https://styled-components.com/
 
